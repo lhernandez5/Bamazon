@@ -41,7 +41,7 @@ function start() {
     .then(function(answer) {
       if (answer.action === "View Products for Sale") {
         var query =
-          "SELECT departments.department_id, departments.department_name, departments.over_head_costs, SUM(products.product_sales) AS total_sales, (departments.over_head_costs-products.product_sales)as total_profit ";
+          "SELECT products.department_name, COALESCE(departments.over_head_costs,0) as over_head_costs, COALESCE(SUM(products.product_sales),0) AS product_sales, COALESCE(departments.over_head_costs-products.product_sales,0)as total_profit "
         query +=
           "FROM departments RIGHT JOIN products ON departments.department_name=products.department_name ";
         query +=
@@ -50,19 +50,17 @@ function start() {
         connection.query(query, function(err, res) {
           data = [];
           data.push([
-            "department_id",
             "department_name",
             "over_head_costs",
-            "total_sales",
+            "product_sales",
             "total_profit"
           ]);
           for (var i = 0; i < res.length; i++) {
             data.push([
-              res[i].department_id,
               res[i].department_name,
-              res[i].over_head_costs,
-              res[i].total_sales,
-              res[i].total_profit
+              res[i].over_head_costs.toFixed(2),
+              res[i].product_sales.toFixed(2),
+              res[i].total_profit.toFixed(2)
             ]);
           }
           output = table(data);
@@ -117,7 +115,7 @@ function start() {
               for (var i = 0; i < result.length; i++) {
                 data_1.push([
                   result[i].department_name,
-                  result[i].over_head_costs
+                  result[i].over_head_costs.toFixed(2)
                 ]);
               }
               output_1 = table(data_1);

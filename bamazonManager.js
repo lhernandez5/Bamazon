@@ -70,9 +70,9 @@ function start() {
                   results[i].item_id,
                   results[i].product_name,
                   results[i].department_name,
-                  results[i].price,
+                  results[i].price.toFixed(2),
                   results[i].stock_quantity,
-                  results[i].product_sales
+                  results[i].product_sales.toFixed(2)
                 ]);
               }
               output = table(data);
@@ -167,8 +167,8 @@ function start() {
                 function(err) {
                   if (err) throw err;
                   console.log("Your auction was created successfully!");
-                }
-              );
+                });
+
               readProducts();
               start();
             });
@@ -194,9 +194,9 @@ function readProducts() {
         results[i].item_id,
         results[i].product_name,
         results[i].department_name,
-        results[i].price,
+        results[i].price.toFixed(2),
         results[i].stock_quantity,
-        results[i].product_sales
+        results[i].product_sales.toFixed(2)
       ]);
     }
     output_1 = table(data_1);
