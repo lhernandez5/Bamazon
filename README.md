@@ -6,6 +6,8 @@ This is an Amazon-like storefront app that will take in orders from customers an
 <br>
 <img width="638" alt="bamazoncustomertotal" src="https://user-images.githubusercontent.com/22462010/42485365-5a4ee692-83c5-11e8-884a-93cb3619922b.png">
 <br>
-<img width="365" alt="bamazonmanager_cli_options" src="https://user-images.githubusercontent.com/22462010/42486172-cab77bee-83c8-11e8-8d52-a2a1ba733920.png">
+<img width="363" alt="bamazonmanager_cli_options" src="https://user-images.githubusercontent.com/22462010/42486290-46b4f226-83c9-11e8-8ea6-1475f0b16508.png">
 <br>
 <img width="759" alt="bamazonmanager_view_products_for_sale" src="https://user-images.githubusercontent.com/22462010/42486240-05c75f56-83c9-11e8-8c47-69b172bfc88b.png">
+<br>
+<img width="759" alt="bamazonmanager_view_products_for_sale" src="https://user-images.githubusercontent.com/22462010/42486305-62de0c3a-83c9-11e8-9425-4fe17f526f94.png">
