@@ -15,3 +15,11 @@ This is an Amazon-like storefront app that will take in orders from customers an
 <img width="777" alt="bamazonmanager_add_more_to_inventory" src="https://user-images.githubusercontent.com/22462010/42486380-d4c2b0b2-83c9-11e8-9bb7-096867c8e36e.png">
 <br>
 <img width="773" alt="bamazonmanager_add_new_product" src="https://user-images.githubusercontent.com/22462010/42486358-bde9e202-83c9-11e8-8a1d-59de23975048.png">
+<br>
+<img width="386" alt="bamazonsupervisor_options" src="https://user-images.githubusercontent.com/22462010/42486465-4256db12-83ca-11e8-9177-005004399815.png">
+<br>
+<img width="386" alt="bamazonsupervisor_options" src="https://user-images.githubusercontent.com/22462010/42486465-4256db12-83ca-11e8-9177-005004399815.png">
+<br>
+<img width="660" alt="bamazonsupervisor_view_sales" src="https://user-images.githubusercontent.com/22462010/42486542-94f3baa2-83ca-11e8-8bed-7be8b65f1a14.png">
+<br>
+<img width="537" alt="bamazonsupervisor_create_department" src="https://user-images.githubusercontent.com/22462010/42486543-9729dbda-83ca-11e8-80d6-cbd8d49bc653.png">
