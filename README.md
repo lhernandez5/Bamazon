@@ -2,7 +2,7 @@
 This is an Amazon-like storefront app that will take in orders from customers and deplete stock from the store's inventory. And the app will track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
 <br>
 <br>
-Customer View:
+<h2>Customer View:</h2>
 The app prompt users with two messages.
 The first should ask them the ID of the product they would like to buy.
 The second message should ask how many units of the product they would like to buy.
