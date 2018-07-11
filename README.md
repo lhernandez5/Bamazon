@@ -3,8 +3,9 @@ This is an Amazon-like storefront app that will take in orders from customers an
 <br>
 <br>
 <h2>Customer View:</h2>
-`<addr>`Running the Node application called bamazonCustomer.js will: `<addr>`
-`<addr>`Prompt users with two messages:`<addr>`
+Running the Node application called bamazonCustomer.js will:
+<br>
+Prompt users with two messages:
 <li>The first should ask them the ID of the product they would like to buy.</li>
 <li>The second message should ask how many units of the product they would like to buy.</li>
 <li>The total will be displayed and notifies the user that their purchase was successful.</li>
