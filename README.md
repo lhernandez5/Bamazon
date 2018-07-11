@@ -3,7 +3,8 @@ This is an Amazon-like storefront app that will take in orders from customers an
 <br>
 <br>
 <h2>Customer View:</h2>
-The app prompt users with two messages.
+Running the Node application called bamazonCustomer.js will: 
+Prompt users with two messages.
 <li>The first should ask them the ID of the product they would like to buy.</li>
 <li>The second message should ask how many units of the product they would like to buy.</li>
 <br>
@@ -14,7 +15,7 @@ The total will be displayed and notifies the user that their purchase was succes
 <br>
 <img width="363" alt="bamazonmanager_cli_options" src="https://user-images.githubusercontent.com/22462010/42486290-46b4f226-83c9-11e8-8ea6-1475f0b16508.png">
 <br>
-
+<h2>Manager View:</h2>
 Running the Node application called bamazonManager.js will: 
 List a set of menu options:
 <li>View Products for Sale</li>
