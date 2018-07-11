@@ -11,10 +11,10 @@ Prompt users with two messages:
 <br>
 The total purchase will be displayed and notifies the user that their purchase was successful.
 <br>
+<br>
 <img width="638" alt="bamazoncustomer_buy_items" src="https://user-images.githubusercontent.com/22462010/42485332-30c9d5c0-83c5-11e8-8529-d1d06c8e8fbc.png">
 <br>
 <img width="638" alt="bamazoncustomertotal" src="https://user-images.githubusercontent.com/22462010/42485365-5a4ee692-83c5-11e8-884a-93cb3619922b.png">
-<br>
 <h2>Manager View:</h2>
 Running the Node application called bamazonManager.js will: 
 List a set of menu options:
@@ -22,7 +22,6 @@ List a set of menu options:
 <li>View Low Inventory</li>
 <li>Add to Inventory</li>
 <li>Add New Product</li>
-
 If a manager selects View Products for Sale, the app should list every available item: the item IDs, names, prices, and quantities.
 If a manager selects View Low Inventory, then it should list all items with an inventory count lower than five.
 If a manager selects Add to Inventory, your app should display a prompt that will let the manager "add more" of any item currently in the store.
