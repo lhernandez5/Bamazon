@@ -19,6 +19,7 @@ The total purchase will be displayed and notifies the user that their purchase w
 Running the Node application called bamazonManager.js will: 
 <br>
 List a set of menu options:
+<ol>
 <li>View Products for Sale</li>
 If a manager selects View Products for Sale, the app should list every available item: the item IDs, names, prices, and quantities.
 <li>View Low Inventory</li>
@@ -28,6 +29,7 @@ If a manager selects Add to Inventory, your app should display a prompt that wil
 <li>Add New Product</li>
 If a manager selects Add New Product, it should allow the manager to add a completely new product to the store.
 <br>
+  </ol>
 <img width="363" alt="bamazonmanager_cli_options" src="https://user-images.githubusercontent.com/22462010/42486290-46b4f226-83c9-11e8-8ea6-1475f0b16508.png">
 <br>
 <img width="638" alt="bamazonmanager_view_products_for_sale" src="https://user-images.githubusercontent.com/22462010/42486240-05c75f56-83c9-11e8-8c47-69b172bfc88b.png">
