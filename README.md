@@ -13,8 +13,6 @@ Prompt users with two messages.
 The total will be displayed and notifies the user that their purchase was successful.
 <img width="638" alt="bamazoncustomertotal" src="https://user-images.githubusercontent.com/22462010/42485365-5a4ee692-83c5-11e8-884a-93cb3619922b.png">
 <br>
-<img width="363" alt="bamazonmanager_cli_options" src="https://user-images.githubusercontent.com/22462010/42486290-46b4f226-83c9-11e8-8ea6-1475f0b16508.png">
-<br>
 <h2>Manager View:</h2>
 Running the Node application called bamazonManager.js will: 
 List a set of menu options:
@@ -26,6 +24,9 @@ If a manager selects View Products for Sale, the app should list every available
 If a manager selects View Low Inventory, then it should list all items with an inventory count lower than five.
 If a manager selects Add to Inventory, your app should display a prompt that will let the manager "add more" of any item currently in the store.
 If a manager selects Add New Product, it should allow the manager to add a completely new product to the store.
+<br>
+<img width="363" alt="bamazonmanager_cli_options" src="https://user-images.githubusercontent.com/22462010/42486290-46b4f226-83c9-11e8-8ea6-1475f0b16508.png">
+<br>
 <img width="638" alt="bamazonmanager_view_products_for_sale" src="https://user-images.githubusercontent.com/22462010/42486240-05c75f56-83c9-11e8-8c47-69b172bfc88b.png">
 <br>
 <img width="638" alt="bamazonmanager_view_low_products" src="https://user-images.githubusercontent.com/22462010/42486324-892543e0-83c9-11e8-8567-64abea97ef6c.png">
