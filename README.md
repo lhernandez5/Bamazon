@@ -6,6 +6,7 @@ This is an Amazon-like storefront app that will take in orders from customers an
 The app prompt users with two messages.
 <li>The first should ask them the ID of the product they would like to buy.</li>
 <li>The second message should ask how many units of the product they would like to buy.</li>
+<br>
 <img width="638" alt="bamazoncustomer_buy_items" src="https://user-images.githubusercontent.com/22462010/42485332-30c9d5c0-83c5-11e8-8529-d1d06c8e8fbc.png">
 <br>
 <img width="638" alt="bamazoncustomertotal" src="https://user-images.githubusercontent.com/22462010/42485365-5a4ee692-83c5-11e8-884a-93cb3619922b.png">
