@@ -7,10 +7,10 @@ Running the Node application called bamazonCustomer.js will:
 Prompt users with two messages.
 <li>The first should ask them the ID of the product they would like to buy.</li>
 <li>The second message should ask how many units of the product they would like to buy.</li>
+<li>The total will be displayed and notifies the user that their purchase was successful.</li>
 <br>
 <img width="638" alt="bamazoncustomer_buy_items" src="https://user-images.githubusercontent.com/22462010/42485332-30c9d5c0-83c5-11e8-8529-d1d06c8e8fbc.png">
 <br>
-The total will be displayed and notifies the user that their purchase was successful.
 <img width="638" alt="bamazoncustomertotal" src="https://user-images.githubusercontent.com/22462010/42485365-5a4ee692-83c5-11e8-884a-93cb3619922b.png">
 <br>
 <h2>Manager View:</h2>
@@ -34,6 +34,10 @@ If a manager selects Add New Product, it should allow the manager to add a compl
 <img width="638" alt="bamazonmanager_add_more_to_inventory" src="https://user-images.githubusercontent.com/22462010/42486380-d4c2b0b2-83c9-11e8-9bb7-096867c8e36e.png">
 <br>
 <img width="638" alt="bamazonmanager_add_new_product" src="https://user-images.githubusercontent.com/22462010/42486358-bde9e202-83c9-11e8-8a1d-59de23975048.png">
+<br>
+<h2>Supervisor View:</h2>
+<li>When a supervisor selects View Product Sales by Department, the app should display a summarized table in their terminal/bash window. Use the table below as a guide.</li>
+<li>Create New Department allows the supervisor user to add a department.</li>
 <br>
 <img width="386" alt="bamazonsupervisor_options" src="https://user-images.githubusercontent.com/22462010/42486465-4256db12-83ca-11e8-9177-005004399815.png">
 <br>
