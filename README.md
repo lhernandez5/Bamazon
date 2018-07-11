@@ -8,7 +8,8 @@ Running the Node application called bamazonCustomer.js will:
 Prompt users with two messages:
 <li>The first should ask them the ID of the product they would like to buy.</li>
 <li>The second message should ask how many units of the product they would like to buy.</li>
-<li>The total will be displayed and notifies the user that their purchase was successful.</li>
+<br>
+The total purchase will be displayed and notifies the user that their purchase was successful.
 <br>
 <img width="638" alt="bamazoncustomer_buy_items" src="https://user-images.githubusercontent.com/22462010/42485332-30c9d5c0-83c5-11e8-8529-d1d06c8e8fbc.png">
 <br>
