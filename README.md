@@ -1,5 +1,5 @@
 # bamazon:credit_card::department_store:
-This is an Amazon-like storefront app that will take in orders from customers and deplete stock from the store's inventory. And the app will track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
+This is an Amazon-like storefront app that takes in orders from customers and depletes stock from the store's inventory. And the app will track product sales across the store's departments and then provide a summary of the highest-grossing departments in the store.
 <br>
 <br>
 <h2>Customer View:</h2>
