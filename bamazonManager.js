@@ -45,7 +45,6 @@ function start() {
           readProducts();
           start();
         } else if (answer.action === "View Low Inventory") {
-          // If a manager selects View Low Inventory, then it should list all items with an inventory count lower than five.
           connection.query(
             "SELECT * FROM products WHERE stock_quantity < 5",
             function(err, results) {

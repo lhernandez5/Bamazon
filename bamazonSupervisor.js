@@ -5,14 +5,8 @@ var data, output;
 var data_1, output_1;
 var connection = mysql.createConnection({
   host: "localhost",
-
-  // Your port; if not 3306
   socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock",
-
-  // Your username
   user: "root",
-
-  // Your password
   password: "root",
   database: "bamazon_DB"
 });
