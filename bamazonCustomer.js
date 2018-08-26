@@ -3,18 +3,11 @@ var inquirer = require("inquirer");
 var total = 0;
 var purchase = 0;
 var { table } = require("table");
-var data, output;
 var data_1, output_1;
 var connection = mysql.createConnection({
   host: "localhost",
-
-  // Your port; if not 3306
   socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock",
-
-  // Your username
   user: "root",
-
-  // Your password
   password: "root",
   database: "bamazon_DB"
 });
@@ -66,7 +59,6 @@ function start() {
               newStockAmount = results[i].stock_quantity - itemQuant;
               purchase = results[i].price * parseFloat(answer.amount);
               total += purchase;
-              var productSales = results[i].product_sales;
               productSales += purchase;
               connection.query(
                 "UPDATE products SET ? WHERE ?",

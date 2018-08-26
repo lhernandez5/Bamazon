@@ -29,7 +29,7 @@ function start() {
         name: "action",
         type: "rawlist",
         message: "What action would you like to make?",
-        choices: ["View Products for Sale", "Create New Department"],
+        choices: ["View Products Sales By Department", "Create New Department"],
         validate: function(value) {
           if (isNaN(value) === false) {
             return true;
@@ -39,7 +39,7 @@ function start() {
       }
     ])
     .then(function(answer) {
-      if (answer.action === "View Products for Sale") {
+      if (answer.action === "View Products Sales By Department") {
         var query =
           "SELECT products.department_name, COALESCE(departments.over_head_costs,0) as over_head_costs, COALESCE(SUM(products.product_sales),0) AS product_sales, COALESCE(departments.over_head_costs-products.product_sales,0)as total_profit "
         query +=
